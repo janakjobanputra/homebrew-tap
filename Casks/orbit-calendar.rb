@@ -1,6 +1,6 @@
 cask "orbit-calendar" do
-  version "1.0.0"
-  sha256 "cf4b47a6a11be7880e9b93808692cc6ba64a802a87a4210805c0518aac8b101c"
+  version "1.1.0"
+  sha256 "a17655b8f11d1c0847591568b41a452e4fee82940f6be9ed5bd7ec0ef9a8af3e"
 
   url "https://github.com/janakjobanputra/orbit/releases/download/v#{version}/Orbit-#{version}.dmg"
   name "Orbit"
