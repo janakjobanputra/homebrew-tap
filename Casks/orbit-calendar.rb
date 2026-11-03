@@ -1,6 +1,6 @@
 cask "orbit-calendar" do
-  version "1.1.1"
-  sha256 "044d68a8f9d143b9c2dc108051e74692491b991fd87c926fe8362e93da7712bb"
+  version "1.1.2"
+  sha256 "f030819ccdecc50a92e37cfbb3fdbfa62362d4bcb96308cb686fee95512cfa41"
 
   url "https://github.com/janakjobanputra/orbit/releases/download/v#{version}/Orbit-v#{version}.dmg"
   name "Orbit"
@@ -12,7 +12,7 @@ cask "orbit-calendar" do
     strategy :github_latest
   end
 
-  depends_on macos: :tahoe
+  depends_on macos: :sequoia
 
   app "Orbit.app"
 
