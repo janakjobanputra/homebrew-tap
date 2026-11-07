@@ -1,6 +1,6 @@
 cask "orbit-calendar" do
-  version "1.1.4"
-  sha256 "60b16995043af150a2b75d905250cb3135e0cada53c339841c5960a330d5de64"
+  version "1.1.5"
+  sha256 "2616aff822b747ccba681b8559d011f1068fc431c53691766e78a26ae3568070"
 
   url "https://github.com/janakjobanputra/orbit/releases/download/v#{version}/Orbit-v#{version}.dmg"
   name "Orbit"
@@ -12,6 +12,7 @@ cask "orbit-calendar" do
     strategy :github_latest
   end
 
+  auto_updates true
   depends_on macos: :sequoia
 
   app "Orbit.app"
